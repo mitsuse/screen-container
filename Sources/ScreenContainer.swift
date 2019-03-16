@@ -13,9 +13,9 @@ extension Default where Self: UIViewController {
     }
 
     public func add(content viewController: UIViewController, to superView: UIView) {
-        addChildViewController(viewController)
+        addChild(viewController)
         superView.addSubview(viewController.view)
-        viewController.didMove(toParentViewController: self)
+        viewController.didMove(toParent: self)
     }
 
     public func remove(content viewController: UIViewController) {
@@ -23,8 +23,8 @@ extension Default where Self: UIViewController {
     }
 
     public func remove(content viewController: UIViewController, from superView: UIView) {
-        viewController.willMove(toParentViewController: nil)
+        viewController.willMove(toParent: nil)
         viewController.view.removeFromSuperview()
-        viewController.removeFromParentViewController()
+        viewController.removeFromParent()
     }
 }
