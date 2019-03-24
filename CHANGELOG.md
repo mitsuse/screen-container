@@ -1,5 +1,8 @@
 ## Unreleased
 
+
+## 0.2.1
+
 - Set `SWIFT_VERSION` for Swift 4.2+.
 
 
