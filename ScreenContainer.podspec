@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'ScreenContainer'
-  spec.version = '0.2.1'
+  spec.version = '0.3.0'
   spec.homepage = 'https://github.com/mitsuse/screen-container-ios'
   spec.authors = {
     'Tomoya Kose' => 'tomoya@mitsuse.jp'
