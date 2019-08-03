@@ -1,5 +1,7 @@
 ## Unreleased
 
+- Set `SWIFT_VERSION` for Swift 5.
+
 
 ## 0.2.1
 
