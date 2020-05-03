@@ -1,5 +1,8 @@
 ## Unreleased
 
+
+## 0.5.0
+
 - Support Swift Package Manager
 - Remove supports for Carthage and CocoaPods.
 
